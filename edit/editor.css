@@ -1,0 +1,243 @@
+.editor-body {
+  min-height: 100vh;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+.editor-shell {
+  margin: 0 auto;
+  max-width: 1180px;
+  padding: 3rem 4vw 8rem;
+}
+
+.editor-header {
+  align-items: flex-end;
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  padding-bottom: 2.25rem;
+}
+
+.editor-header h1 {
+  font-size: clamp(3.1rem, 7vw, 6.5rem);
+  letter-spacing: -0.07em;
+  line-height: 0.9;
+  margin: 0;
+}
+
+.editor-header p:last-child {
+  color: var(--muted);
+  margin: 1.2rem 0 0;
+}
+
+.editor-header-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+}
+
+.token-panel,
+.editor-section,
+.editor-error {
+  background: rgba(249, 250, 251, 0.72);
+  border: 1px solid var(--line);
+  margin-top: 2rem;
+  padding: clamp(1.5rem, 4vw, 3rem);
+}
+
+.token-panel {
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: 1.15fr 0.85fr;
+}
+
+.token-panel h2,
+.editor-error h2 {
+  font-size: clamp(1.8rem, 3vw, 3rem);
+  letter-spacing: -0.045em;
+  line-height: 1;
+  margin: 0 0 1.1rem;
+}
+
+.token-panel p {
+  color: var(--muted);
+}
+
+.token-panel form {
+  align-self: center;
+}
+
+.token-panel label,
+.editor-field label {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  margin-bottom: 0.5rem;
+}
+
+.token-row {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.token-row input,
+.editor-field input,
+.editor-field textarea {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 0;
+  color: var(--ink);
+  font: inherit;
+  padding: 0.82rem 0.9rem;
+  width: 100%;
+}
+
+.token-row input:focus,
+.editor-field input:focus,
+.editor-field textarea:focus {
+  border-color: var(--irish-green);
+  box-shadow: 0 0 0 3px rgba(22, 155, 98, 0.12);
+  outline: 0;
+}
+
+.form-status {
+  font-size: 0.82rem;
+  min-height: 1.4em;
+}
+
+.editor-section-title {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.editor-section-title span {
+  color: var(--irish-green);
+  font-family: "Courier New", monospace;
+  font-size: 0.72rem;
+  font-weight: 800;
+}
+
+.editor-section-title h2 {
+  font-size: clamp(1.65rem, 3vw, 2.7rem);
+  letter-spacing: -0.04em;
+  margin: 0;
+}
+
+.editor-grid {
+  display: grid;
+  gap: 1.2rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.editor-field-wide {
+  grid-column: 1 / -1;
+}
+
+.editor-field textarea {
+  min-height: 118px;
+  resize: vertical;
+}
+
+.repeat-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.repeat-card {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  padding: 1.4rem;
+}
+
+.repeat-card-head {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.2rem;
+}
+
+.repeat-card-head strong {
+  font-size: 0.82rem;
+}
+
+.repeat-card-head button,
+.editor-add {
+  background: transparent;
+  border: 0;
+  color: var(--muted);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.76rem;
+  font-weight: 750;
+}
+
+.repeat-card-head button:hover {
+  color: #a51c30;
+}
+
+.editor-add {
+  border: 1px dashed var(--line);
+  color: var(--deep-green);
+  margin-top: 1rem;
+  padding: 0.9rem;
+  width: 100%;
+}
+
+.editor-add:hover {
+  border-color: var(--irish-green);
+}
+
+.editor-savebar {
+  align-items: center;
+  background: rgba(238, 241, 244, 0.96);
+  border: 1px solid var(--line);
+  bottom: 1rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding: 1rem;
+  position: sticky;
+  z-index: 30;
+}
+
+.editor-savebar span {
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.editor-savebar .button {
+  flex: 0 0 auto;
+}
+
+@media (max-width: 760px) {
+  .editor-shell {
+    padding-top: 2rem;
+  }
+
+  .editor-header,
+  .token-panel {
+    align-items: stretch;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .editor-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .token-row {
+    display: grid;
+  }
+
+  .editor-savebar {
+    align-items: stretch;
+    display: grid;
+  }
+}

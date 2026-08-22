@@ -1,0 +1,142 @@
+{
+  "name": "Jaemin Shin",
+  "eyebrow": "Neurology · Clinical Data Science",
+  "location": "Seoul, Republic of Korea",
+  "coordinates": "37.49° N · 126.88° E",
+  "heroThesis": "I turn questions from the bedside into",
+  "heroAccent": "evidence that can travel.",
+  "heroIntro": "Neurology physician and clinical researcher at Korea University Medical Center. My work spans acute stroke, memory disorders, and data-driven methods that make treatment decisions more precise in real-world practice.",
+  "aboutTitle": "Clinically grounded.\nQuantitatively curious.",
+  "aboutLead": "I am interested in the moments when a clinical decision is necessary but the evidence is incomplete: when to begin antiplatelet therapy, how a new Alzheimer’s treatment behaves outside a trial, or what genetics can reveal about stroke severity.",
+  "aboutSupport": "My approach combines neurological training with large clinical datasets, statistics, and reproducible analysis. The aim is simple: research that remains useful when it returns to the clinic.",
+  "currentInstitution": "Korea University Medical Center",
+  "currentRole": "Neurology resident",
+  "currentRolePeriod": "March 2022 — Present",
+  "currentStudy": "Master’s program in Medicine",
+  "currentStudyPeriod": "Korea University · March 2024 — Present",
+  "futureTitle": "Integrating genomic evidence across neurology.",
+  "futureCopy": "My long-term goal is to integrate multiple genomic datasets with deeply phenotyped clinical cohorts to study neurological disease across the spectrum — from Alzheimer’s disease and other neurodegenerative disorders to stroke. I want to connect causal genetics, biomarkers, and real-world outcomes to identify mechanisms that can ultimately guide prevention and treatment.",
+  "methodsCopy": "Experience with large clinical datasets, effect estimates and confidence intervals, individual-level genotyping data, and supervised two-sample Mendelian randomization workflows.",
+  "contactTitle": "Let’s talk about a clinical question worth answering.",
+  "contactEmail": "tdo02134@gmail.com",
+  "researchAreas": [
+    {
+      "number": "01",
+      "title": "Acute stroke & antithrombotic therapy",
+      "copy": "Using large, real-world stroke registries to ask when treatment begins to matter — with a focus on minor stroke, high-risk TIA, and dual antiplatelet therapy."
+    },
+    {
+      "number": "02",
+      "title": "Memory disorders & disease-modifying therapy",
+      "copy": "Studying how emerging therapies translate from trials into clinical practice, including safety, ARIA risk, and early treatment patterns with lecanemab."
+    },
+    {
+      "number": "03",
+      "title": "Clinical & genomic data science",
+      "copy": "Connecting clinical registries with survival analysis, causal inference, and genetic data to answer questions that remain grounded in patient care."
+    }
+  ],
+  "workingProjects": [
+    {
+      "status": "Review article · Forthcoming in Journal of Stroke",
+      "title": "Mendelian Randomization for the Stroke Clinician: What It Can and Cannot Tell Us",
+      "copy": "A clinically oriented review of Mendelian randomization in stroke: what it assumes, how its estimates should be interpreted, where it can help prioritize therapeutic targets, and where clinical translation can go wrong."
+    },
+    {
+      "status": "International collaboration · CRLB-GMEL, PHRI / McMaster University",
+      "title": "Migraine and stroke: shared genomic architecture",
+      "copy": "A collaborative genomics project with Guillaume Paré and Michael Chong at the Population Health Research Institute, integrating large-scale genetic data to investigate shared susceptibility and causal pathways linking migraine and stroke."
+    }
+  ],
+  "publications": [
+    {
+      "year": "2026",
+      "title": "Timing of Initiation and Efficacy of Dual Antiplatelet Therapy in Minor Stroke or High-Risk TIA",
+      "authors": "J. Shin, K. J. Lee, C. K. Kim, K. Oh, D. Y. Kim, B. J. Kim, M. K. Han, et al.",
+      "venue": "Stroke 57(3), 673–683",
+      "note": "Cited by 2",
+      "href": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=AnztMl4AAAAJ&citation_for_view=AnztMl4AAAAJ:2osOgNQ5qMEC"
+    },
+    {
+      "year": "2026",
+      "title": "Real-world implementation of lecanemab in Korean patients at a tertiary memory clinic: Safety, ARIA risk, and early treatment patterns",
+      "authors": "J. Shin, S. I. Suh, Y. J. Park, S. Lee, J. Kang, E. S. Lee, H. N. Jung, et al.",
+      "venue": "Alzheimer’s & Dementia: Diagnosis, Assessment & Disease Monitoring",
+      "note": "Early online",
+      "href": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=AnztMl4AAAAJ&citation_for_view=AnztMl4AAAAJ:qjMakFHDy7sC"
+    },
+    {
+      "year": "2026",
+      "title": "Posterior Cerebral Artery Territory Infarction after Bilateral Carotid Artery Stenting",
+      "authors": "H. Bae, H. Yun, M. Lee, J. Shin, K. J. Lee, C. K. Kim, K. Oh, et al.",
+      "venue": "Journal of the Korean Neurological Association 44(2), 168–172",
+      "note": "Case report",
+      "href": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=AnztMl4AAAAJ&citation_for_view=AnztMl4AAAAJ:UeHWp8X0CEIC"
+    },
+    {
+      "year": "2024",
+      "title": "Primary central nervous system lymphoma mimicking lacunar infarction",
+      "authors": "J. Shin, T. Jeon, K. Oh, J. H. Han, C. K. Kim, K. J. Lee",
+      "venue": "Journal of the Korean Neurological Association 42(1), 23–26",
+      "note": "Cited by 2",
+      "href": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=AnztMl4AAAAJ&citation_for_view=AnztMl4AAAAJ:d1gkVwhDpl0C"
+    },
+    {
+      "year": "2023",
+      "title": "Deep learning reconstruction allows for usage of contrast agent of lower concentration for coronary CTA than filtered back projection and hybrid iterative reconstruction",
+      "authors": "C. Otgonbaatar, J. K. Ryu, J. Shin, H. M. Kim, J. W. Seo, H. Shim, D. H. Hwang",
+      "venue": "Acta Radiologica 64(3), 1007–1017",
+      "note": "Cited by 17",
+      "href": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=AnztMl4AAAAJ&citation_for_view=AnztMl4AAAAJ:u5HHmVD_uO8C"
+    },
+    {
+      "year": "2022",
+      "title": "Improvement in image quality and visibility of coronary arteries, stents, and valve structures on CT angiography by deep learning reconstruction",
+      "authors": "C. Otgonbaatar, J. K. Ryu, J. Shin, J. Y. Woo, J. W. Seo, H. Shim, D. H. Hwang",
+      "venue": "Korean Journal of Radiology 23(11), 1044–1054",
+      "note": "Cited by 40",
+      "href": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=AnztMl4AAAAJ&citation_for_view=AnztMl4AAAAJ:u-x6o8ySG0sC"
+    }
+  ],
+  "timeline": [
+    {
+      "period": "2026",
+      "institution": "McMaster University · Population Health Research Institute (PHRI)",
+      "detail": "Genetic and molecular epidemiology research with Guillaume Paré and Michael Chong at CRLB-GMEL · Hamilton Health Sciences, Hamilton, Canada"
+    },
+    {
+      "period": "2024 — Present",
+      "institution": "Korea University",
+      "detail": "Master’s program · Medicine"
+    },
+    {
+      "period": "2022 — Present",
+      "institution": "Korea University Medical Center",
+      "detail": "Residency · Neurology"
+    },
+    {
+      "period": "2021 — 2022",
+      "institution": "Inje University Seoul Paik Hospital",
+      "detail": "Internship"
+    },
+    {
+      "period": "2015 — 2021",
+      "institution": "Keimyung University",
+      "detail": "M.D. · Medicine"
+    }
+  ],
+  "skills": [
+    "R",
+    "Clinical data cleaning",
+    "ggplot2",
+    "Regression modelling",
+    "Survival analysis",
+    "Propensity scores",
+    "Subgroup analysis",
+    "PLINK",
+    "Genotype QC",
+    "Mendelian randomization",
+    "GWAS harmonization",
+    "Colocalization"
+  ]
+}
