@@ -38,6 +38,11 @@
   ],
   "workingProjects": [
     {
+      "status": "Submitted manuscript",
+      "title": "Physical frailty in Alzheimer's disease",
+      "copy": "A clinical study investigating the relationship between physical frailty and outcomes in Alzheimer's disease, currently submitted for publication."
+    },
+    {
       "status": "Review article · Forthcoming in Journal of Stroke",
       "title": "Mendelian Randomization for the Stroke Clinician: What It Can and Cannot Tell Us",
       "copy": "A clinically oriented review of Mendelian randomization in stroke: what it assumes, how its estimates should be interpreted, where it can help prioritize therapeutic targets, and where clinical translation can go wrong."
@@ -102,7 +107,7 @@
     {
       "period": "2026",
       "institution": "McMaster University · Population Health Research Institute (PHRI)",
-      "detail": "Visiting scholar, Genetic and molecular epidemiology research at CRLB-GMEL · Hamilton Health Sciences, Hamilton, Canada"
+      "detail": "Genetic and molecular epidemiology research with Guillaume Paré and Michael Chong at CRLB-GMEL · Hamilton Health Sciences, Hamilton, Canada"
     },
     {
       "period": "2024 — Present",
