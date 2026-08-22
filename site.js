@@ -139,7 +139,6 @@ function render(content) {
       <section class="cv-section" id="cv" aria-labelledby="cv-title">
         <div class="section-heading">
           <div><p class="section-kicker">Curriculum vitae</p><h2 id="cv-title">Training & methods</h2></div>
-          <p class="section-note">A concise public CV — personal identifiers omitted</p>
         </div>
         <div class="cv-grid">
           <div class="timeline" aria-label="Education and clinical training">${timeline}</div>
