@@ -68,6 +68,16 @@ function render(content) {
     )
     .join("");
 
+  const awards = (content.awards || [])
+    .map(
+      (award) => `
+        <article>
+          <span>${escapeHtml(award.period)}</span>
+          <div><h4>${escapeHtml(award.title)}</h4><p>${escapeHtml(award.organization)}</p></div>
+        </article>`,
+    )
+    .join("");
+
   const skills = (content.skills || []).map((skill) => `<span>${escapeHtml(skill)}</span>`).join("");
   const email = escapeHtml(content.contactEmail || "");
 
@@ -143,6 +153,10 @@ function render(content) {
         <div class="cv-grid">
           <div class="timeline" aria-label="Education and clinical training">${timeline}</div>
           <div class="methods-panel"><p class="detail-label">Methods & tools</p><div class="skill-list">${skills}</div><p class="methods-copy">${escapeHtml(content.methodsCopy)}</p></div>
+        </div>
+        <div class="awards-block" aria-labelledby="awards-title">
+          <div class="awards-heading"><p class="detail-label">Recognition</p><h3 id="awards-title">Awards &amp; Honors</h3></div>
+          <div class="awards-list">${awards}</div>
         </div>
       </section>
 

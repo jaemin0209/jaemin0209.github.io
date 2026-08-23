@@ -76,6 +76,14 @@ const arraySections = [
     blank: { period: "", institution: "New institution", detail: "" },
     prepend: true,
   },
+  {
+    key: "awards",
+    title: "수상 경력",
+    itemName: "수상",
+    fields: [["period", "날짜·연도"], ["title", "수상명", true], ["organization", "기관·학술대회", true]],
+    blank: { period: String(new Date().getFullYear()), title: "New award", organization: "" },
+    prepend: true,
+  },
 ];
 
 function headers() {

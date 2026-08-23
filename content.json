@@ -15,7 +15,7 @@
   "currentStudy": "Master’s program in Medicine",
   "currentStudyPeriod": "Korea University · March 2024 — Present",
   "futureTitle": "Integrating genomic evidence across neurology.",
-  "futureCopy": "My long-term goal is to integrate multi-omics datasets with deeply phenotyped clinical cohorts to study neurological disease across the spectrum — from Alzheimer’s disease and other neurodegenerative disorders to stroke. I want to connect causal genetics, biomarkers, and real-world outcomes to identify mechanisms that can ultimately guide prevention and treatment.",
+  "futureCopy": "My long-term goal is to integrate multiple genomic datasets with deeply phenotyped clinical cohorts to study neurological disease across the spectrum — from Alzheimer’s disease and other neurodegenerative disorders to stroke. I want to connect causal genetics, biomarkers, and real-world outcomes to identify mechanisms that can ultimately guide prevention and treatment.",
   "methodsCopy": "Experience with large clinical datasets, effect estimates and confidence intervals, individual-level genotyping data, and supervised two-sample Mendelian randomization workflows.",
   "contactTitle": "Let’s talk about a clinical question worth answering.",
   "contactEmail": "tdo02134@gmail.com",
@@ -106,18 +106,8 @@
   "timeline": [
     {
       "period": "2026",
-      "institution": "McMaster University · Population Health Research Institute (PHRI)",
-      "detail": "Visiting Scholar · Genetic and molecular epidemiology research at CRLB-GMEL · Hamilton Health Sciences, Hamilton, Canada"
-    },
-    {
-      "period": "April 11, 2026",
-      "institution": "Korean Dementia Association · 2026 Spring Scientific Meeting",
-      "detail": "Outstanding Resident Case Presentation Award"
-    },
-    {
-      "period": "2026",
-      "institution": "Korea University Medical Center",
-      "detail": "Selected as an Outstanding Resident"
+      "institution": "Visiting Scholar · McMaster University · Population Health Research Institute (PHRI)",
+      "detail": "Genetic and molecular epidemiology research with Guillaume Paré and Michael Chong at CRLB-GMEL · Hamilton Health Sciences, Hamilton, Canada"
     },
     {
       "period": "2024 — Present",
@@ -138,6 +128,18 @@
       "period": "2015 — 2021",
       "institution": "Keimyung University",
       "detail": "M.D. · Medicine"
+    }
+  ],
+  "awards": [
+    {
+      "period": "April 11, 2026",
+      "title": "Outstanding Resident Case Presentation Award",
+      "organization": "Korean Dementia Association · 2026 Spring Scientific Meeting"
+    },
+    {
+      "period": "2026",
+      "title": "Selected as an Outstanding Resident",
+      "organization": "Korea University Medical Center"
     }
   ],
   "skills": [

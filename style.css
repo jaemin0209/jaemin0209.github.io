@@ -678,6 +678,64 @@ footer {
   margin: 2rem 0 0;
 }
 
+.awards-block {
+  border-top: 1px solid var(--ink);
+  display: grid;
+  gap: clamp(2rem, 5vw, 5rem);
+  grid-template-columns: minmax(180px, 0.35fr) 1fr;
+  margin-top: clamp(4rem, 7vw, 7rem);
+  padding-top: 2rem;
+}
+
+.awards-heading .detail-label {
+  color: var(--irish-green);
+  margin-bottom: 0.8rem;
+}
+
+.awards-heading h3 {
+  font-size: clamp(2rem, 3.6vw, 3.8rem);
+  letter-spacing: -0.055em;
+  line-height: 0.95;
+  margin: 0;
+}
+
+.awards-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.awards-list article {
+  border-left: 1px solid var(--line);
+  min-height: 185px;
+  padding: 0.4rem 2rem 1.8rem;
+}
+
+.awards-list article:last-child {
+  border-right: 1px solid var(--line);
+}
+
+.awards-list article > span {
+  color: var(--irish-green);
+  display: block;
+  font-family: "Courier New", monospace;
+  font-size: 0.72rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+}
+
+.awards-list h4 {
+  font-size: clamp(1.15rem, 1.8vw, 1.55rem);
+  letter-spacing: -0.035em;
+  line-height: 1.15;
+  margin: 0;
+}
+
+.awards-list p {
+  color: var(--muted);
+  font-size: 0.88rem;
+  margin: 0.65rem 0 0;
+}
+
 .contact-section {
   background: var(--crimson);
   color: white;
@@ -753,7 +811,8 @@ footer {
   .statement-grid,
   .now-section,
   .current-work-section,
-  .cv-grid {
+  .cv-grid,
+  .awards-block {
     grid-template-columns: 1fr;
   }
 
@@ -873,6 +932,22 @@ footer {
   .timeline article {
     gap: 0.6rem;
     grid-template-columns: 1fr;
+  }
+
+  .awards-list {
+    grid-template-columns: 1fr;
+  }
+
+  .awards-list article,
+  .awards-list article:last-child {
+    border: 0;
+    border-top: 1px solid var(--line);
+    min-height: auto;
+    padding: 1.5rem 0 2rem;
+  }
+
+  .awards-list article > span {
+    margin-bottom: 1.1rem;
   }
 
   footer {
