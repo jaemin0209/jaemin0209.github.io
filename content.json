@@ -130,6 +130,38 @@
       "detail": "M.D. · Medicine"
     }
   ],
+  "credentials": [
+    {
+      "period": "2025",
+      "title": "Dementia Care Physician Specialist Education",
+      "organization": "Korean Dementia Association",
+      "copy": "Completed the 17th specialist education program for physicians providing dementia care.",
+      "href": "",
+      "linkLabel": "",
+      "secondaryHref": "",
+      "secondaryLinkLabel": ""
+    },
+    {
+      "period": "2025",
+      "title": "USMLE Step 1 — Pass",
+      "organization": "United States Medical Licensing Examination",
+      "copy": "Passed Step 1 of the United States Medical Licensing Examination.",
+      "href": "",
+      "linkLabel": "",
+      "secondaryHref": "",
+      "secondaryLinkLabel": ""
+    },
+    {
+      "period": "2019",
+      "title": "Intern Reporter",
+      "organization": "MedigateNews",
+      "copy": "Reported on medical education, artificial intelligence in medicine, and student rights.",
+      "href": "https://www.medigatenews.com/news/1048208285",
+      "linkLabel": "AI and medical education",
+      "secondaryHref": "https://www.medigatenews.com/news/2807768741",
+      "secondaryLinkLabel": "Student rights in medical education"
+    }
+  ],
   "awards": [
     {
       "period": "April 11, 2026",

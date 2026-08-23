@@ -78,6 +78,24 @@ function render(content) {
     )
     .join("");
 
+  const credentials = (content.credentials || [])
+    .map(
+      (credential) => `
+        <article>
+          <span>${escapeHtml(credential.period)}</span>
+          <div>
+            <h4>${escapeHtml(credential.title)}</h4>
+            <p class="credential-organization">${escapeHtml(credential.organization)}</p>
+            <p>${escapeHtml(credential.copy)}</p>
+            ${credential.href || credential.secondaryHref ? `<div class="credential-links">
+              ${credential.href ? `<a href="${safeUrl(credential.href)}" target="_blank" rel="noreferrer">${escapeHtml(credential.linkLabel || "View article")} <span aria-hidden="true">↗</span></a>` : ""}
+              ${credential.secondaryHref ? `<a href="${safeUrl(credential.secondaryHref)}" target="_blank" rel="noreferrer">${escapeHtml(credential.secondaryLinkLabel || "View article")} <span aria-hidden="true">↗</span></a>` : ""}
+            </div>` : ""}
+          </div>
+        </article>`,
+    )
+    .join("");
+
   const skills = (content.skills || []).map((skill) => `<span>${escapeHtml(skill)}</span>`).join("");
   const email = escapeHtml(content.contactEmail || "");
 
@@ -86,7 +104,7 @@ function render(content) {
     <header class="site-header">
       <a class="wordmark" href="#top" aria-label="${escapeHtml(content.name)}, home"><span>${escapeHtml(content.name)}</span></a>
       <nav aria-label="Main navigation">
-        <a href="#about">About</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#cv">CV</a>
+        <a href="#about">About</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#cv">CV &amp; Honors</a>
       </nav>
     </header>
 
@@ -154,6 +172,10 @@ function render(content) {
           <div class="timeline" aria-label="Education and clinical training">${timeline}</div>
           <div class="methods-panel"><p class="detail-label">Methods & tools</p><div class="skill-list">${skills}</div><p class="methods-copy">${escapeHtml(content.methodsCopy)}</p></div>
         </div>
+        <div class="credentials-block" aria-labelledby="credentials-title">
+          <div class="credentials-heading"><p class="detail-label">Professional development</p><h3 id="credentials-title">Credentials &amp; Additional Experience</h3></div>
+          <div class="credentials-list">${credentials}</div>
+        </div>
         <div class="awards-block" aria-labelledby="awards-title">
           <div class="awards-heading"><p class="detail-label">Recognition</p><h3 id="awards-title">Awards &amp; Honors</h3></div>
           <div class="awards-list">${awards}</div>
@@ -170,7 +192,10 @@ function render(content) {
 
 async function start() {
   try {
-    const response = await fetch(`./content.json?v=${Date.now()}`, { cache: "no-store" });
+    const response = await fetch(`./content.json?v=20260823-3-${Date.now()}`, {
+      cache: "no-store",
+      headers: { "Cache-Control": "no-cache" },
+    });
     if (!response.ok) throw new Error("Content could not be loaded");
     render(await response.json());
   } catch (error) {

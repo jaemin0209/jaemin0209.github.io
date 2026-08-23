@@ -678,6 +678,91 @@ footer {
   margin: 2rem 0 0;
 }
 
+.credentials-block {
+  border-top: 1px solid var(--ink);
+  display: grid;
+  gap: clamp(2rem, 5vw, 5rem);
+  grid-template-columns: minmax(180px, 0.35fr) 1fr;
+  margin-top: clamp(4rem, 7vw, 7rem);
+  padding-top: 2rem;
+}
+
+.credentials-heading .detail-label {
+  color: var(--irish-green);
+  margin-bottom: 0.8rem;
+}
+
+.credentials-heading h3 {
+  font-size: clamp(2rem, 3.6vw, 3.8rem);
+  letter-spacing: -0.055em;
+  line-height: 0.95;
+  margin: 0;
+}
+
+.credentials-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.credentials-list article {
+  border-left: 1px solid var(--line);
+  min-height: 260px;
+  padding: 0.4rem 1.5rem 1.8rem;
+}
+
+.credentials-list article:last-child {
+  border-right: 1px solid var(--line);
+}
+
+.credentials-list article > span {
+  color: var(--irish-green);
+  display: block;
+  font-family: "Courier New", monospace;
+  font-size: 0.72rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+}
+
+.credentials-list h4 {
+  font-size: clamp(1.05rem, 1.5vw, 1.35rem);
+  letter-spacing: -0.03em;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.credential-links {
+  display: grid;
+  gap: 0.45rem;
+  margin-top: 1.2rem;
+}
+
+.credential-links a {
+  color: var(--irish-green);
+  font-size: 0.76rem;
+  font-weight: 700;
+  line-height: 1.35;
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--irish-green) 40%, transparent);
+  text-underline-offset: 0.2rem;
+}
+
+.credential-links a:hover,
+.credential-links a:focus-visible {
+  color: var(--irish-green);
+}
+
+.credentials-list p {
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.55;
+  margin: 0.65rem 0 0;
+}
+
+.credentials-list .credential-organization {
+  color: var(--ink);
+  font-weight: 700;
+}
+
 .awards-block {
   border-top: 1px solid var(--ink);
   display: grid;
@@ -812,6 +897,7 @@ footer {
   .now-section,
   .current-work-section,
   .cv-grid,
+  .credentials-block,
   .awards-block {
     grid-template-columns: 1fr;
   }
@@ -932,6 +1018,22 @@ footer {
   .timeline article {
     gap: 0.6rem;
     grid-template-columns: 1fr;
+  }
+
+  .credentials-list {
+    grid-template-columns: 1fr;
+  }
+
+  .credentials-list article,
+  .credentials-list article:last-child {
+    border: 0;
+    border-top: 1px solid var(--line);
+    min-height: auto;
+    padding: 1.5rem 0 2rem;
+  }
+
+  .credentials-list article > span {
+    margin-bottom: 1.1rem;
   }
 
   .awards-list {
