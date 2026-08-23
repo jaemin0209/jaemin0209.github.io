@@ -77,6 +77,18 @@ const arraySections = [
     prepend: true,
   },
   {
+    key: "credentials",
+    title: "자격·추가 경력",
+    itemName: "항목",
+    fields: [
+      ["period", "날짜·연도"], ["title", "항목명", true], ["organization", "기관", true], ["copy", "설명", true],
+      ["linkLabel", "첫 번째 링크 이름"], ["href", "첫 번째 링크"],
+      ["secondaryLinkLabel", "두 번째 링크 이름"], ["secondaryHref", "두 번째 링크"],
+    ],
+    blank: { period: String(new Date().getFullYear()), title: "New credential", organization: "", copy: "", href: "", linkLabel: "", secondaryHref: "", secondaryLinkLabel: "" },
+    prepend: true,
+  },
+  {
     key: "awards",
     title: "수상 경력",
     itemName: "수상",
