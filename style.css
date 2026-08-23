@@ -622,6 +622,10 @@ footer {
   grid-template-columns: 1.15fr 0.85fr;
 }
 
+.cv-training-grid {
+  grid-template-columns: 1fr;
+}
+
 .timeline {
   border-top: 1px solid var(--ink);
 }
@@ -656,6 +660,10 @@ footer {
   background: var(--paper-deep);
   border-top: 4px solid var(--irish-green);
   padding: clamp(1.5rem, 3vw, 2.6rem);
+}
+
+.methods-panel-bottom {
+  margin-top: clamp(4rem, 7vw, 7rem);
 }
 
 .skill-list {

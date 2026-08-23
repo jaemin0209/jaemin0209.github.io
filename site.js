@@ -166,11 +166,10 @@ function render(content) {
 
       <section class="cv-section" id="cv" aria-labelledby="cv-title">
         <div class="section-heading">
-          <div><p class="section-kicker">Curriculum vitae</p><h2 id="cv-title">Training & methods</h2></div>
+          <div><p class="section-kicker">Curriculum vitae</p><h2 id="cv-title">Training</h2></div>
         </div>
-        <div class="cv-grid">
+        <div class="cv-grid cv-training-grid">
           <div class="timeline" aria-label="Education and clinical training">${timeline}</div>
-          <div class="methods-panel"><p class="detail-label">Methods & tools</p><div class="skill-list">${skills}</div><p class="methods-copy">${escapeHtml(content.methodsCopy)}</p></div>
         </div>
         <div class="credentials-block" aria-labelledby="credentials-title">
           <div class="credentials-heading"><p class="detail-label">Professional development</p><h3 id="credentials-title">Credentials &amp; Additional Experience</h3></div>
@@ -180,6 +179,7 @@ function render(content) {
           <div class="awards-heading"><p class="detail-label">Recognition</p><h3 id="awards-title">Awards &amp; Honors</h3></div>
           <div class="awards-list">${awards}</div>
         </div>
+        <div class="methods-panel methods-panel-bottom"><p class="detail-label">Methods &amp; tools</p><div class="skill-list">${skills}</div><p class="methods-copy">${escapeHtml(content.methodsCopy)}</p></div>
       </section>
 
       <section class="contact-section" aria-labelledby="contact-title">
@@ -192,7 +192,7 @@ function render(content) {
 
 async function start() {
   try {
-    const response = await fetch(`./content.json?v=20260823-3-${Date.now()}`, {
+    const response = await fetch(`./content.json?v=20260823-4-${Date.now()}`, {
       cache: "no-store",
       headers: { "Cache-Control": "no-cache" },
     });
