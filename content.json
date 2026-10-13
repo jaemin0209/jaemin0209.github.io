@@ -38,11 +38,6 @@
   ],
   "workingProjects": [
     {
-      "status": "Under review",
-      "title": "Physical frailty in Alzheimer's disease",
-      "copy": "A clinical study investigating the relationship between physical frailty and outcomes in Alzheimer's disease, currently submitted for publication."
-    },
-    {
       "status": "Review article · Forthcoming in Journal of Stroke",
       "title": "Mendelian Randomization for the Stroke Clinician: What It Can and Cannot Tell Us",
       "copy": "A clinically oriented review of Mendelian randomization in stroke: what it assumes, how its estimates should be interpreted, where it can help prioritize therapeutic targets, and where clinical translation can go wrong."
@@ -54,6 +49,14 @@
     }
   ],
   "publications": [
+    {
+      "year": "2026",
+      "title": "Baseline Physical Frailty Predicts Clinical Outcomes During Lecanemab Therapy in Early Alzheimer's Disease: A Prospective Real-World Cohort Study\n\n",
+      "authors": "J. Shin, Y. J. Park, S. Lee, J. Kang, S. Lee, E. S. Lee, H. N. Jung, et al.",
+      "venue": "Published online October 12, 2026",
+      "note": "",
+      "href": "https://www.aginganddisease.org/EN/10.14336/AD.2026.0978"
+    },
     {
       "year": "2026",
       "title": "Timing of Initiation and Efficacy of Dual Antiplatelet Therapy in Minor Stroke or High-Risk TIA",
