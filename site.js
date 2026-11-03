@@ -104,7 +104,7 @@ function render(content) {
     <header class="site-header">
       <a class="wordmark" href="#top" aria-label="${escapeHtml(content.name)}, home"><span>${escapeHtml(content.name)}</span></a>
       <nav aria-label="Main navigation">
-        <a href="#about">About</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#cv">CV &amp; Honors</a>
+        <a href="#experience">Experience &amp; Education</a><a href="#publications">Publications</a><a href="#awards">Awards</a>
       </nav>
     </header>
 
@@ -122,7 +122,7 @@ function render(content) {
           <div class="hero-actions" aria-label="Contact and profiles">
             <a class="button button-primary" href="mailto:${email}">Email me <span aria-hidden="true">↗</span></a>
             <a class="button" href="${scholarUrl}" target="_blank" rel="noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
-            <a class="button" href="#cv">View CV</a>
+            <a class="button" href="#experience">View CV</a>
           </div>
         </div>
       </section>
@@ -156,6 +156,19 @@ function render(content) {
         <article class="future-panel"><p class="section-kicker">Future direction</p><h2>${escapeHtml(content.futureTitle)}</h2><p>${escapeHtml(content.futureCopy)}</p></article>
       </section>
 
+      <section class="cv-section" id="experience" aria-labelledby="experience-title">
+        <div class="section-heading">
+          <div><p class="section-kicker">Curriculum vitae</p><h2 id="experience-title">Experience &amp; Education</h2></div>
+        </div>
+        <div class="cv-grid cv-training-grid">
+          <div class="timeline" aria-label="Professional experience and education">${timeline}</div>
+        </div>
+        <div class="credentials-block" aria-labelledby="credentials-title">
+          <div class="credentials-heading"><p class="detail-label">Professional development</p><h3 id="credentials-title">Credentials &amp; Additional Experience</h3></div>
+          <div class="credentials-list">${credentials}</div>
+        </div>
+      </section>
+
       <section class="publications-section" id="publications" aria-labelledby="publications-title">
         <div class="section-heading publication-heading">
           <div><p class="section-kicker">Selected publications</p><h2 id="publications-title">Work across stroke, memory, and imaging</h2></div>
@@ -164,19 +177,9 @@ function render(content) {
         <ol class="publication-list">${publications}</ol>
       </section>
 
-      <section class="cv-section" id="cv" aria-labelledby="cv-title">
-        <div class="section-heading">
-          <div><p class="section-kicker">Curriculum vitae</p><h2 id="cv-title">Training</h2></div>
-        </div>
-        <div class="cv-grid cv-training-grid">
-          <div class="timeline" aria-label="Education and clinical training">${timeline}</div>
-        </div>
-        <div class="credentials-block" aria-labelledby="credentials-title">
-          <div class="credentials-heading"><p class="detail-label">Professional development</p><h3 id="credentials-title">Credentials &amp; Additional Experience</h3></div>
-          <div class="credentials-list">${credentials}</div>
-        </div>
-        <div class="awards-block" aria-labelledby="awards-title">
-          <div class="awards-heading"><p class="detail-label">Recognition</p><h3 id="awards-title">Awards &amp; Honors</h3></div>
+      <section class="cv-section" id="awards" aria-labelledby="awards-title">
+        <div class="awards-block awards-block-standalone">
+          <div class="awards-heading"><p class="detail-label">Recognition</p><h2 id="awards-title">Awards &amp; Honors</h2></div>
           <div class="awards-list">${awards}</div>
         </div>
         <div class="methods-panel methods-panel-bottom"><p class="detail-label">Methods &amp; tools</p><div class="skill-list">${skills}</div><p class="methods-copy">${escapeHtml(content.methodsCopy)}</p></div>
