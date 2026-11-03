@@ -1,6 +1,11 @@
 name: Update Google Scholar publications
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/update-scholar.mjs"
+      - ".github/workflows/update-scholar.yml"
   schedule:
     # Every Monday at 09:17 Korea Standard Time (00:17 UTC).
     - cron: "17 0 * * 1"
