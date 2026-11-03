@@ -51,26 +51,10 @@
   "publications": [
     {
       "year": "2026",
-      "title": "Baseline Physical Frailty Predicts Clinical Outcomes During Lecanemab Therapy in Early Alzheimer's Disease: A Prospective Real-World Cohort Study\n\n",
-      "authors": "J. Shin, Y. J. Park, S. Lee, J. Kang, S. Lee, E. S. Lee, H. N. Jung, et al.",
-      "venue": "Published online October 12, 2026",
-      "note": "",
-      "href": "https://www.aginganddisease.org/EN/10.14336/AD.2026.0978"
-    },
-    {
-      "year": "2026",
-      "title": "Timing of Initiation and Efficacy of Dual Antiplatelet Therapy in Minor Stroke or High-Risk TIA",
-      "authors": "J. Shin, K. J. Lee, C. K. Kim, K. Oh, D. Y. Kim, B. J. Kim, M. K. Han, et al.",
-      "venue": "Stroke 57(3), 673–683",
-      "note": "Cited by 2",
-      "href": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=AnztMl4AAAAJ&citation_for_view=AnztMl4AAAAJ:2osOgNQ5qMEC"
-    },
-    {
-      "year": "2026",
       "title": "Real-world implementation of lecanemab in Korean patients at a tertiary memory clinic: Safety, ARIA risk, and early treatment patterns",
       "authors": "J. Shin, S. I. Suh, Y. J. Park, S. Lee, J. Kang, E. S. Lee, H. N. Jung, et al.",
       "venue": "Alzheimer’s & Dementia: Diagnosis, Assessment & Disease Monitoring",
-      "note": "Early online",
+      "note": "Early online · Cited by 1",
       "href": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=AnztMl4AAAAJ&citation_for_view=AnztMl4AAAAJ:qjMakFHDy7sC"
     },
     {
@@ -80,6 +64,22 @@
       "venue": "Journal of the Korean Neurological Association 44(2), 168–172",
       "note": "Case report",
       "href": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=AnztMl4AAAAJ&citation_for_view=AnztMl4AAAAJ:UeHWp8X0CEIC"
+    },
+    {
+      "year": "2026",
+      "title": "Timing of Initiation and Efficacy of Dual Antiplatelet Therapy in Minor Stroke or High-Risk TIA",
+      "authors": "J. Shin, K. J. Lee, C. K. Kim, K. Oh, D. Y. Kim, B. J. Kim, M. K. Han, et al.",
+      "venue": "Stroke 57(3), 673–683",
+      "note": "Cited by 4",
+      "href": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=AnztMl4AAAAJ&citation_for_view=AnztMl4AAAAJ:2osOgNQ5qMEC"
+    },
+    {
+      "year": "2026",
+      "title": "Baseline Physical Frailty Predicts Clinical Outcomes During Lecanemab Therapy in Early Alzheimer's Disease: A Prospective Real-World Cohort Study\n\n",
+      "authors": "J. Shin, Y. J. Park, S. Lee, J. Kang, S. Lee, E. S. Lee, H. N. Jung, et al.",
+      "venue": "Published online October 12, 2026",
+      "note": "",
+      "href": "https://www.aginganddisease.org/EN/10.14336/AD.2026.0978"
     },
     {
       "year": "2024",
@@ -94,7 +94,7 @@
       "title": "Deep learning reconstruction allows for usage of contrast agent of lower concentration for coronary CTA than filtered back projection and hybrid iterative reconstruction",
       "authors": "C. Otgonbaatar, J. K. Ryu, J. Shin, H. M. Kim, J. W. Seo, H. Shim, D. H. Hwang",
       "venue": "Acta Radiologica 64(3), 1007–1017",
-      "note": "Cited by 17",
+      "note": "Cited by 18",
       "href": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=AnztMl4AAAAJ&citation_for_view=AnztMl4AAAAJ:u5HHmVD_uO8C"
     },
     {
@@ -102,7 +102,7 @@
       "title": "Improvement in image quality and visibility of coronary arteries, stents, and valve structures on CT angiography by deep learning reconstruction",
       "authors": "C. Otgonbaatar, J. K. Ryu, J. Shin, J. Y. Woo, J. W. Seo, H. Shim, D. H. Hwang",
       "venue": "Korean Journal of Radiology 23(11), 1044–1054",
-      "note": "Cited by 40",
+      "note": "Cited by 41",
       "href": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=AnztMl4AAAAJ&citation_for_view=AnztMl4AAAAJ:u-x6o8ySG0sC"
     }
   ],
