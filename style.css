@@ -785,11 +785,16 @@ footer {
   margin-bottom: 0.8rem;
 }
 
+.awards-heading h2,
 .awards-heading h3 {
   font-size: clamp(2rem, 3.6vw, 3.8rem);
   letter-spacing: -0.055em;
   line-height: 0.95;
   margin: 0;
+}
+
+.awards-block-standalone {
+  margin-top: 0;
 }
 
 .awards-list {
