@@ -12,8 +12,8 @@
   "currentInstitution": "Korea University Medical Center",
   "currentRole": "Neurology resident",
   "currentRolePeriod": "March 2022 — Present",
-  "currentStudy": "Master’s program in Medicine",
-  "currentStudyPeriod": "Korea University · March 2024 — Present",
+  "currentStudy": "M.S. in Medicine",
+  "currentStudyPeriod": "Korea University Graduate School of Medicine · February 2027",
   "futureTitle": "Integrating genomic evidence across neurology.",
   "futureCopy": "My long-term goal is to integrate multiple genomic datasets with deeply phenotyped clinical cohorts to study neurological disease across the spectrum — from Alzheimer’s disease and other neurodegenerative disorders to stroke. I want to connect causal genetics, biomarkers, and real-world outcomes to identify mechanisms that can ultimately guide prevention and treatment.",
   "methodsCopy": "Experience with large clinical datasets, effect estimates and confidence intervals, individual-level genotyping data, and supervised two-sample Mendelian randomization workflows.",
@@ -108,14 +108,14 @@
   ],
   "timeline": [
     {
+      "period": "February 2027",
+      "institution": "Korea University Graduate School of Medicine",
+      "detail": "M.S. · Medicine"
+    },
+    {
       "period": "2026",
       "institution": "Visiting Scholar · McMaster University · Population Health Research Institute (PHRI)",
       "detail": "Genetic and molecular epidemiology research at CRLB-GMEL · Hamilton Health Sciences, Hamilton, Canada"
-    },
-    {
-      "period": "2024 — Present",
-      "institution": "Korea University",
-      "detail": "Master’s program · Medicine"
     },
     {
       "period": "2022 — Present",
