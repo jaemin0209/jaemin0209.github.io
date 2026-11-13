@@ -1,5 +1,5 @@
 {
-  "name": "Jaemin Shin",
+  "name": "Jaemin Shin, MD, MS",
   "eyebrow": "Neurology · Clinical Data Science",
   "location": "Seoul, Republic of Korea",
   "coordinates": "37.49° N · 126.88° E",
@@ -10,8 +10,8 @@
   "aboutLead": "I am interested in the moments when a clinical decision is necessary but the evidence is incomplete: when to begin antiplatelet therapy, how a new Alzheimer’s treatment behaves outside a trial, or what genetics can reveal about stroke severity.",
   "aboutSupport": "My approach combines neurological training with large clinical datasets, statistics, and reproducible analysis. The aim is simple: research that remains useful when it returns to the clinic.",
   "currentInstitution": "Korea University Medical Center",
-  "currentRole": "Neurology resident",
-  "currentRolePeriod": "March 2022 — Present",
+  "currentRole": "Neurologist",
+  "currentRolePeriod": "2022 — 2027",
   "currentStudy": "M.S. in Medicine",
   "currentStudyPeriod": "Korea University Graduate School of Medicine · 2027",
   "futureTitle": "Integrating genomic evidence across neurology.",
@@ -118,7 +118,12 @@
       "detail": "Genetic and molecular epidemiology research at CRLB-GMEL · Hamilton Health Sciences, Hamilton, Canada"
     },
     {
-      "period": "2022 — Present",
+      "period": "2024 — 2025",
+      "institution": "Gyeonggi Provincial Geriatric Hospital",
+      "detail": "Chief of Neurology"
+    },
+    {
+      "period": "2022 — 2027",
       "institution": "Korea University Medical Center",
       "detail": "Residency · Neurology"
     },
