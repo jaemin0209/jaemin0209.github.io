@@ -13,7 +13,7 @@
   "currentRole": "Neurology resident",
   "currentRolePeriod": "March 2022 — Present",
   "currentStudy": "M.S. in Medicine",
-  "currentStudyPeriod": "Korea University Graduate School of Medicine · February 2027",
+  "currentStudyPeriod": "Korea University Graduate School of Medicine · 2027",
   "futureTitle": "Integrating genomic evidence across neurology.",
   "futureCopy": "My long-term goal is to integrate multiple genomic datasets with deeply phenotyped clinical cohorts to study neurological disease across the spectrum — from Alzheimer’s disease and other neurodegenerative disorders to stroke. I want to connect causal genetics, biomarkers, and real-world outcomes to identify mechanisms that can ultimately guide prevention and treatment.",
   "methodsCopy": "Experience with large clinical datasets, effect estimates and confidence intervals, individual-level genotyping data, and supervised two-sample Mendelian randomization workflows.",
@@ -51,6 +51,14 @@
   "publications": [
     {
       "year": "2026",
+      "title": "Baseline Physical Frailty Predicts Clinical Outcomes During Lecanemab Therapy in Early Alzheimer's Disease: A Prospective Real-World Cohort Study\n\n",
+      "authors": "J. Shin, Y. J. Park, S. Lee, J. Kang, S. Lee, E. S. Lee, H. N. Jung, et al.",
+      "venue": "Published online October 12, 2026",
+      "note": "",
+      "href": "https://www.aginganddisease.org/EN/10.14336/AD.2026.0978"
+    },
+    {
+      "year": "2026",
       "title": "Real-world implementation of lecanemab in Korean patients at a tertiary memory clinic: Safety, ARIA risk, and early treatment patterns",
       "authors": "J. Shin, S. I. Suh, Y. J. Park, S. Lee, J. Kang, E. S. Lee, H. N. Jung, et al.",
       "venue": "Alzheimer’s & Dementia: Diagnosis, Assessment & Disease Monitoring",
@@ -72,14 +80,6 @@
       "venue": "Stroke 57(3), 673–683",
       "note": "Cited by 4",
       "href": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=AnztMl4AAAAJ&citation_for_view=AnztMl4AAAAJ:2osOgNQ5qMEC"
-    },
-    {
-      "year": "2026",
-      "title": "Baseline Physical Frailty Predicts Clinical Outcomes During Lecanemab Therapy in Early Alzheimer's Disease: A Prospective Real-World Cohort Study\n\n",
-      "authors": "J. Shin, Y. J. Park, S. Lee, J. Kang, S. Lee, E. S. Lee, H. N. Jung, et al.",
-      "venue": "Published online October 12, 2026",
-      "note": "",
-      "href": "https://www.aginganddisease.org/EN/10.14336/AD.2026.0978"
     },
     {
       "year": "2024",
@@ -108,7 +108,7 @@
   ],
   "timeline": [
     {
-      "period": "February 2027",
+      "period": "2027",
       "institution": "Korea University Graduate School of Medicine",
       "detail": "M.S. · Medicine"
     },
